@@ -3,6 +3,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#HomeStyling{
+    background-image: url(../assets/images/formBack.png);
+    background-size: cover;
+    background-image: center;
+}
+
 .topNav {
     overflow: hidden;
     background-color: #333;
@@ -46,3 +52,18 @@ h1 {
     color: #ffffff;
 }
 
+.headSlider{
+    height: 100%;
+}
+
+.SliderContainer{
+    height: 40vh;
+    background-color: #77817c;
+    display: flex;
+}
+
+.headParagraph{
+    color: rgb(255, 255, 255);
+text-align: center;
+padding: 2em 2em;
+}
