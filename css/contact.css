@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.flexRight{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 4em;
+}
+.formContainer{
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+} 
+
+#contact{
+    background-image: url(../assets/images/marsSliderClipped2.png);
+    background-size: cover;
+    background-position: right;
+    /* background-color: #f9f9f9; */
+    padding: 2em 4em;
+    width: 100%;
+    margin: 50px 0; 
+    border-radius: 20px;
+}
+
+#contact h3{
+    color: #5b7575;
+    display: block;
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+#contact input, #contact textarea, #contact button{
+ font-family: 'Roboto', sans-serif;
+ font-size: 15px;
+ font-weight: 400;   
+}
+
+fieldset{
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+#contact input, #contact textarea{
+    width: 100%;
+    border: 1px solid #CCC;
+    background-color: #f3f3f3;
+    margin: 0 0 5px;
+    padding: 10px;
+    color: black;
+    border-radius: 20px;
+}
+
+#contact textarea{
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+
+#contact button{
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5em;
+    background-color: rgb(0, 0, 0);
+    color: #ffff;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#contact input:focus, #contact textarea:focus{
+    border: 2px solid #56bcc1;
+}
