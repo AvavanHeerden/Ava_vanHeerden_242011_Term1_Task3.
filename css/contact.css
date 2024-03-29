@@ -33,7 +33,7 @@ body{
 #contact h3{
     color: #5b7575;
     display: block;
-    font-family: 'Sacramento', cursive;
+    font-family: sans-serif;
     font-size: 40px;
     font-weight: 400;
 }
@@ -80,4 +80,9 @@ fieldset{
 
 #contact input:focus, #contact textarea:focus{
     border: 2px solid #56bcc1;
+}
+
+.footer{
+    color: aliceblue;
+    font-size: 30px;
 }
