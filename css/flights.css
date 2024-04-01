@@ -1,0 +1,159 @@
+body {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#HomeStyling{
+    background-image: url(../assets/images/formBack.png);
+    background-size: cover;
+    background-image: center;
+}
+
+.topNav {
+    overflow: hidden;
+    /* background-color: #333;  */
+    background-image: url(../assets/images/homePageHeader.png);
+}
+
+.topNav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px; 
+}
+
+.topNavRight  {
+    float: right;
+}
+
+.topNav a:hover{
+    background-color:#ddd ;
+    color: black;
+}
+
+.topNav a.active {
+    background-color: #04aa60;
+    color: white;
+}
+
+.flexContainer{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+}
+
+.container > div{
+    border: 3px solid #ffcc80;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.item2{
+    padding: 2em 4em 2em;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.containerFlex{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+}
+
+.Container > div{
+    border: 3px solid #ffcc80;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.item4{
+    padding: 2em 4em 2em;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.flexBox{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    padding: 15px;
+    grid-area: 5px;
+}
+
+.Box > div{
+    border: 3px solid#ffcc80;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.item6{
+    padding: 2em 4em 2em;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.boxNeptune{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    padding: 15px;
+    grid-area: 5px;
+}
+
+.Neptune > div{
+    border: 3px solid#ffcc80;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.item8{
+    padding: 2em 4em 2em;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.boxSaturn{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    padding: 15px;
+    grid-area: 5px;
+}
+
+.Saturn > div{
+    border: 3px solid#ffcc80;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.item10{
+    padding: 2em 4em 2em;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.boxUranus{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    padding: 15px;
+    grid-area: 5px;
+}
+
+.Uranus > div{
+    border: 3px solid#ffcc80;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.item12{
+    padding: 2em 4em 2em;
+    font-size: 30px;
+    font-family: sans-serif;
+}

@@ -1,3 +1,41 @@
+body {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#HomeStyling{
+    background-image: url(../assets/images/formBack.png);
+    background-size: cover;
+    background-image: center;
+}
+
+.topNav {
+    overflow: hidden;
+    background-image: url(../assets/images/homePageHeader.png);
+}
+
+.topNav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px; 
+}
+
+.topNavRight  {
+    float: right;
+}
+
+.topNav a:hover{
+    background-color:#ddd ;
+    color: black;
+}
+
+.topNav a.active {
+    background-color: #04aa60;
+    color: white;
+}
 *{
     box-sizing: border-box;
 }
