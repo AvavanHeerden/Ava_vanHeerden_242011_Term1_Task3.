@@ -47,7 +47,7 @@ body {
 }
 
 .container > div{
-    border: 3px solid #ffcc80;
+    background-color: white;
     border-radius: 5px;
     padding: 8px;
 }
@@ -67,9 +67,10 @@ body {
 }
 
 .Container > div{
-    border: 3px solid #ffcc80;
+    background-color: rgb(103, 0, 103);
     border-radius: 5px;
     padding: 8px;
+    color: white;
 }
 
 .item4{
@@ -87,7 +88,7 @@ body {
 }
 
 .Box > div{
-    border: 3px solid#ffcc80;
+    background-color: white;
     border-radius: 5px;
     padding: 8px;
 }
@@ -107,9 +108,10 @@ body {
 }
 
 .Neptune > div{
-    border: 3px solid#ffcc80;
+    background-color: rgb(103, 0, 103);
     border-radius: 5px;
     padding: 8px;
+    color: white;
 }
 
 .item8{
@@ -127,7 +129,7 @@ body {
 }
 
 .Saturn > div{
-    border: 3px solid#ffcc80;
+    background-color: white;
     border-radius: 5px;
     padding: 8px;
 }
@@ -147,9 +149,10 @@ body {
 }
 
 .Uranus > div{
-    border: 3px solid#ffcc80;
+    background-color: rgb(103, 0, 103);
     border-radius: 5px;
     padding: 8px;
+    color: white;
 }
 
 .item12{

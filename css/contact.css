@@ -124,3 +124,22 @@ fieldset{
     color: aliceblue;
     font-size: 30px;
 }
+
+.flexcontainer {
+    display: flex;
+    justify-content: space-around;     
+    background-color: #ffffff;
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+
+  }
+
+  .flexcontainer > div{
+    border-radius: 5px;
+    padding: 8px;
+    color: rgb(113, 17, 182);
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 300;
+  }
