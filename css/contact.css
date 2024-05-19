@@ -1,22 +1,70 @@
 body {
     margin: 0%;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
 }
 
-#HomeStyling{
-    background-image: url(../assets/images/formBack.png);
-    background-size: cover;
-    background-image: center;
+@font-face {
+  font-family: 'porter-sans';
+  src: url(../assets/fonts/porter-sans-inline-block.otf)
+}
+
+a {
+  color: black;
 }
 
 .topNav {
+  height: 100vh;
     overflow: hidden;
     background-image: url(../assets/images/homePageHeader.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3%;
+    display: flex;
+      
+    justify-content: space-between;  
+    flex-direction: column;  
+    padding: 15px;
+    gap: 5px;
+}
+
+  
+.headerText{
+  align-self: flex-start;
+}
+
+.headerText h1{
+  font-family: 'porter-sans';
+  color: #540172;
+      align-self:flex-start;
+}
+
+    .flex-container > div{
+      border-radius: 5px;
+      padding: 8px;
+    }
+
+
+.navBar {
+  width: 90%;
+  height:10vh;
+  background-color: #ffffff;
+    align-self:center; 
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+.logo {
+  width: 266px;
+  height: 48px;
 }
 
 .topNav a {
     float: left;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -34,10 +82,7 @@ body {
 
 .topNav a.active {
     background-color: #04aa60;
-    color: white;
-}
-*{
-    box-sizing: border-box;
+    color: rgb(0, 0, 0);
 }
 
 body{
@@ -61,7 +106,6 @@ body{
     background-image: url(../assets/images/marsSliderClipped2.png);
     background-size: cover;
     background-position: right;
-    /* background-color: #f9f9f9; */
     padding: 2em 4em;
     width: 100%;
     margin: 50px 0; 
@@ -69,7 +113,7 @@ body{
 }
 
 #contact h3{
-    color: #5b7575;
+    color: #ffffff;
     display: block;
     font-family: sans-serif;
     font-size: 40px;
@@ -120,10 +164,7 @@ fieldset{
     border: 2px solid #56bcc1;
 }
 
-.footer{
-    color: aliceblue;
-    font-size: 30px;
-}
+
 
 .flexcontainer {
     display: flex;
@@ -143,3 +184,50 @@ fieldset{
     font-family: sans-serif;
     font-weight: 300;
   }
+
+  .footer{
+    display: flex;
+    gap: 10%;
+    padding: 5%;
+  }
+
+  .footer h3{
+margin: 0px;
+padding-bottom: 40px;
+  }
+
+  .socialIconsContainer{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .socialIcon{
+    width: 77px;
+    height: 77px;
+  }
+
+  .Pieter{
+    width: 266px;
+    color: black;
+  }
+
+  .Pieter p{
+    color: black;
+  }
+
+.subFooter a{
+  display: flex;
+  flex-direction: column;
+padding: 10px 0px;
+}
+
+.footerEnd{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+padding: 0 5%;
+}
+
+.footerEnd p {
+  color: black;
+}

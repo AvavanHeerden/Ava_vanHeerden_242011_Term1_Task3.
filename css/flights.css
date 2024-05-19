@@ -11,13 +11,11 @@ body {
 
 .topNav {
     overflow: hidden;
-    /* background-color: #333;  */
     background-image: url(../assets/images/homePageHeader.png);
 }
 
 .topNav a {
     float: left;
-    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -35,7 +33,6 @@ body {
 
 .topNav a.active {
     background-color: #04aa60;
-    color: white;
 }
 
 .flexContainer{
@@ -56,6 +53,11 @@ body {
     padding: 2em 4em 2em;
     font-size: 30px;
     font-family: sans-serif;
+    color: black;
+}
+
+.item2 p{
+color: black;
 }
 
 .containerFlex{
@@ -88,15 +90,21 @@ body {
 }
 
 .Box > div{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 5px;
     padding: 8px;
+    color: black;
 }
 
 .item6{
     padding: 2em 4em 2em;
     font-size: 30px;
     font-family: sans-serif;
+    color: black;
+}
+
+.item6 p{
+    color: black;
 }
 
 .boxNeptune{
@@ -140,6 +148,10 @@ body {
     font-family: sans-serif;
 }
 
+.item10 p{
+    color: black;
+}
+
 .boxUranus{
     display: flex;
     justify-content: space-evenly;
@@ -159,4 +171,51 @@ body {
     padding: 2em 4em 2em;
     font-size: 30px;
     font-family: sans-serif;
+}
+
+.footer{
+    display: flex;
+    gap: 10%;
+    padding: 5%;
+  }
+
+  .footer h3{
+margin: 0px;
+padding-bottom: 40px;
+  }
+
+  .socialIconsContainer{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .socialIcon{
+    width: 77px;
+    height: 77px;
+  }
+
+  .Pieter{
+    width: 266px;
+    color: black;
+  }
+
+  .Pieter p{
+    color: black;
+  }
+
+.subFooter a{
+  display: flex;
+  flex-direction: column;
+padding: 10px 0px;
+}
+
+.footerEnd{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+padding: 0 5%;
+}
+
+.footerEnd p {
+  color: black;
 }
