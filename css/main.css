@@ -225,7 +225,7 @@ padding: 2em 30em;
   .flexcontainer2 {
     display: flex;
     justify-content: flex-end;     
-    background-color: white;
+    background-color: black;
     height: 100%;
     padding: 15px;
     gap: 5px;
