@@ -111,4 +111,3 @@ function totalUranus(){
  totalUranusCost = parseInt(document.getElementById('ticketsUranus').value) * 5000;
  document.getElementById('totalUranus').innerHTML = "R " + totalUranusCost
 }
-
