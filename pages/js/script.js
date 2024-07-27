@@ -64,7 +64,7 @@ else{
 
 
  function purchaseClicked(){
-     alert('Thank you for your purchase!!!');
+     alert('Thank you for booking your flight, come again soon!');
      var cartItems = document.getElementsByClassName('cart-items')[0];
      while(cartItems.hasChildNodes()){
          cartItems.removeChild(cartItems.firstChild)
